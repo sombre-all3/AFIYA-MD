@@ -131,7 +131,7 @@ command(
     type: "downloader",
   },
   async (message, match) => {
-    await message.reply("*Downloading...*");
+    await message.reply("*Downloading your song...*");
     match = match || message.reply_message.text;
     if (!match) return await message.reply("_Enter Song Name_");
     //fn
@@ -252,12 +252,12 @@ command(
     if (!match) return await message.sendMessage("ᴇɴᴛᴇʀ ʟɪɴᴋ");
     
     if (!match.includes("https://www.instagram.com"))
-      return await message.reply("_Invalid URL_");
+      return await message.reply("_Invalid url_");
  message.reply("```Downloading```");
     let response = await getJson(`https://api-viper-x0.up.railway.app/api/insta?url=${match}`
     );
 
-    try { message.sendFromUrl(response.media.url); } catch { message.sendMessage("ᴏᴏᴘs !! sᴏᴍᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ 🥴"); }
+    try { message.sendFromUrl(response.media.url); } catch { message.sendMessage("_Error!!_"); }
   }
 );
 
