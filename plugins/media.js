@@ -252,11 +252,11 @@ command(
     if (!match) return await message.sendMessage("ᴇɴᴛᴇʀ ʟɪɴᴋ");
     
     if (!match.includes("https://www.instagram.com"))
-      return await message.reply("_Invalid url_");
- message.reply("```Downloading```");
-    let response = await getJson(`https://api-viper-x0.up.railway.app/api/insta?url=${match}`
+      return await message.reply("_Invalid URL_");
+       message.reply("*Downloading...*");
+    let response = await getJson(
+      `https://api-viper-x0.vercel.app/api/insta?url=${match}`
     );
-
     try { message.sendFromUrl(response.media.url); } catch { message.sendMessage("_Error!!_"); }
   }
 );
