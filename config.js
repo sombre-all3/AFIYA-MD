@@ -20,7 +20,7 @@ module.exports = {
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "master",
   PACKNAME: process.env.PACKNAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
-  BOT_INFO: process.env.BOT_INFO || 'Abu;Jsl;927025⁸;https://i.imgur.com/P7ziVhr.jpeg;https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHb',
+  BOT_INFO: process.env.BOT_INFO || '𝙰𝙵𝙸𝚈𝙰;𝚂𝚄𝙷𝙰𝙸𝙳;https://i.imgur.com/P7ziVhr.jpeg',
   WELCOME_MSG:
     process.env.WELCOME_MSG ||
     "Hi @user Welcome to @gname",
