@@ -11,17 +11,15 @@ module.exports = {
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   LOGS: toBool(process.env.LOGS) || true,
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-  SESSION_ID:process.env.SESSION_ID || "ZUJBSGh_XASENA_kNGI=",
+  SESSION_ID:process.env.SESSION_ID || "RE03Mnp_AFIYA_hR1g=",
   LANG: process.env.LANG || "EN",
   HANDLERS:
     process.env.HANDLER === "false" || process.env.PREFIX === "null"
       ? "^"
-      : "^",
+      : "^[.]",
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "master",
   PACKNAME: process.env.PACKNAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
-  BOT_NAME: process.env.BOT_NAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
-  OWNER_NAME: process.env.OWNER_NAME || "𝚂𝚄𝙷𝙰𝙸𝙳",
   WELCOME_MSG:
     process.env.WELCOME_MSG ||
     "Hi @user Welcome to @gname",
@@ -45,8 +43,10 @@ module.exports = {
           },
           logging: false,
         }),
-  SUDO: process.env.SUDO || "917902655741",
+  SUDO: process.env.SUDO || "917902655741,917560842435",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
+  OWNER_NAME: process.env.OWNER_NAME || "𝚂𝚄𝙷𝙰𝙸𝙳",
+  BOT_NAME: process.env.BOT_NAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
   WORK_TYPE: process.env.WORK_TYPE || "private",
 };
