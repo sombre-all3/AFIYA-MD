@@ -1,7 +1,7 @@
 {
   "name": "AFIYA-MD",
   "description": "Afiya Multi Device whatsappbot",
-  "logo": "https://i.imgur.com/lxVf3b5.jpeg",
+  "logo": "https://i.imgur.com/lfcMtYg.jpeg",
   "keywords": ["whatsapp"],
   "repository": "https://github.com/SUHAID-BRO/AFIYA-MD",
   "website": "https://github.com/SUHAID-BRO/AFIYA-MD",
@@ -18,8 +18,7 @@
     },
     "RMBG_KEY": {
       "description": "Remove bg api key ",
-      "required": false,
-      "value": "tPg8PyfNSdpepViwDE7FqPJz"
+      "required": false
     },
     "SESSION_ID": {
       "description": "Your Session ID",
@@ -38,6 +37,7 @@
       "description": "Sticker Packname",
       "required": false
     },
+
     "GOODBYE_MSG": {
       "description": "goodbye Message",
       "required": false
