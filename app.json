@@ -18,7 +18,8 @@
     },
     "RMBG_KEY": {
       "description": "Remove bg api key ",
-      "required": false
+      "required": false,
+      "value": "tPg8PyfNSdpepViwDE7FqPJz"
     },
     "SESSION_ID": {
       "description": "Your Session ID",
