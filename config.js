@@ -20,7 +20,8 @@ module.exports = {
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "master",
   PACKNAME: process.env.PACKNAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
-  BOT_INFO: process.env.BOT_INFO || '𝙰𝙵𝙸𝚈𝙰;𝚂𝚄𝙷𝙰𝙸𝙳;https://i.imgur.com/P7ziVhr.jpeg',
+  BOT_NAME: process.env.BOT_NAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
+  OWNER_NAME: process.env.OWNER_NAME || "𝚂𝚄𝙷𝙰𝙸𝙳",
   WELCOME_MSG:
     process.env.WELCOME_MSG ||
     "Hi @user Welcome to @gname",
@@ -47,7 +48,5 @@ module.exports = {
   SUDO: process.env.SUDO || "917902655741",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  OWNER_NAME: process.env.OWNER_NAME || "𝚂𝚄𝙷𝙰𝙸𝙳",
-  BOT_NAME: process.env.BOT_NAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
   WORK_TYPE: process.env.WORK_TYPE || "private",
 };
