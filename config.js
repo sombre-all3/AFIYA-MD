@@ -16,7 +16,7 @@ module.exports = {
   HANDLERS:
     process.env.HANDLER === "false" || process.env.PREFIX === "null"
       ? "^"
-      : "^[.]",
+      : "^",
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "master",
   PACKNAME: process.env.PACKNAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
