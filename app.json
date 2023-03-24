@@ -37,17 +37,6 @@
       "description": "Sticker Packname",
       "required": false
     },
-    "BOT_NAME": {
-      "description": "Bot name",
-      "required": false,
-      "value": "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳"
-    },
-     
-     "OWNER_NAME": {
-      "description": "Type Your name",
-      "required": false,
-      "value": "SUHAID"
-    },
     "GOODBYE_MSG": {
       "description": "goodbye Message",
       "required": false
