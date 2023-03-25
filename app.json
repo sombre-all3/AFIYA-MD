@@ -49,17 +49,12 @@
     "OWNER_NAME": {
       "description": "Owner Name",
       "required": "false",
-      "value": "SUHAID"
+      "value": "𝙎𝙐𝞖𝞓𝞘𝘿"
     },
     "BOT_NAME": {
       "description": "Bot name",
       "required": "false",
-      "value": "AFIYA-MD"
-     },
-     "ALIVE": {
-      "description": "Alive Message",
-      "required": "false",
-      "value": "```i'm active```"
+      "value": "𝞓𝙁𝞘𝙔𝞓-𝞛𝘿"
     },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
