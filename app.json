@@ -56,11 +56,6 @@
       "required": "false",
       "value": "AFIYA-MD"
     },
-     "FOOTER": {
-      "description": "Footer name",
-      "required": "false",
-      "value": "Afiya-Bot"
-    },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
       "required": false
