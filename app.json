@@ -55,6 +55,11 @@
       "description": "Bot name",
       "required": "false",
       "value": "AFIYA-MD"
+     },
+     "ALIVE": {
+      "description": "Alive Message",
+      "required": "false",
+      "value": "```i'm active```"
     },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
