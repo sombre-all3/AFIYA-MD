@@ -10,11 +10,13 @@
   "env": {
     "ANTI_LINK": {
       "description": "true/false",
-      "required": false
+      "required": false,
+      "value": "false"
     },
     "ANTILINK_ACTION": {
       "description": "kick",
-      "required": false
+      "required": false,
+      "value": "kick"
     },
     "RMBG_KEY": {
       "description": "Remove bg api key ",
@@ -24,27 +26,21 @@
       "description": "Your Session ID",
       "required": true
     },
-    "HANDLERS": {
-      "description": "prefix for commands, enter false for no prefix",
-      "required": true,
-      "value": "."
-    },
     "LOGS": {
       "description": "need to show message logs ?",
-      "required": false
+      "required": false,
+      "value": "true"
     },
     "PACKNAME": {
       "description": "Sticker Packname",
-      "required": false
+      "required": false,
+      "value": "𝞓𝙁𝞘𝙔𝞓-𝞛𝘿"
     },
 
-    "GOODBYE_MSG": {
-      "description": "goodbye Message",
-      "required": false
-    },
     "AUTHOR": {
       "description": "Sticker Pack AUTHOR",
-      "required": false
+      "required": fase,
+      "value": "© 𝙎𝙐𝞖𝞓𝞘𝘿"
     },
     "OWNER_NAME": {
       "description": "Owner Name",
