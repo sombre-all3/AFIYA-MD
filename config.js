@@ -27,6 +27,7 @@ module.exports = {
   AUTHOR: process.env.AUTHOR || "© 𝚂𝚄𝙷𝙰𝙸𝙳",
   OWNER_NAME: process.env.OWNER_NAME || "𝚂𝚄𝙷𝙰𝙸𝙳",
   BOT_NAME: process.env.BOT_NAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
+  FOOTER:   process.env.FOOTER || "𝑨𝒇𝒊𝒚𝒂",
   WORK_TYPE: process.env.WORK_TYPE || "private",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
