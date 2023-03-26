@@ -28,6 +28,7 @@ module.exports = {
   OWNER_NAME: process.env.OWNER_NAME || "𝚂𝚄𝙷𝙰𝙸𝙳",
   BOT_NAME: process.env.BOT_NAME || "𝙰𝙵𝙸𝚈𝙰-𝙼𝙳",
   FOOTER:   process.env.FOOTER || "𝑨𝒇𝒊𝒚𝒂",
+  SUDO: process.env.SUDO || "917902655741",
   WORK_TYPE: process.env.WORK_TYPE || "private",
   DATABASE_URL: DATABASE_URL,
   DATABASE:
@@ -47,7 +48,6 @@ module.exports = {
           },
           logging: false,
         }),
-  SUDO: process.env.SUDO || "917902655741,917560842435",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
 };
