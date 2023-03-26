@@ -10,13 +10,11 @@
   "env": {
     "ANTI_LINK": {
       "description": "true/false",
-      "required": false,
-      "value": "false"
+      "required": false
     },
     "ANTILINK_ACTION": {
       "description": "kick",
-      "required": false,
-      "value": "kick"
+      "required": false
     },
     "RMBG_KEY": {
       "description": "Remove bg api key ",
@@ -28,19 +26,15 @@
     },
     "LOGS": {
       "description": "need to show message logs ?",
-      "required": false,
-      "value": "true"
+      "required": false
     },
     "PACKNAME": {
       "description": "Sticker Packname",
-      "required": false,
-      "value": "𝞓𝙁𝞘𝙔𝞓-𝞛𝘿"
+      "required": false
     },
-
     "AUTHOR": {
       "description": "Sticker Pack AUTHOR",
-      "required": fase,
-      "value": "© 𝙎𝙐𝞖𝞓𝞘𝘿"
+      "required": false
     },
     "OWNER_NAME": {
       "description": "Owner Name",
@@ -53,9 +47,9 @@
       "value": "𝞓𝙁𝞘𝙔𝞓-𝞛𝘿"
     },
     "FOOTER": {
-      "description": "footer name",
+      "description": "Footer name",
       "required": "false",
-      "value": "𝑨𝒇𝒊𝒚𝒂"
+      "value": "𝞓𝙁𝞘𝙔𝞓"
     },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
