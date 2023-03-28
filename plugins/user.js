@@ -23,6 +23,22 @@ command(
 
 command(
   {
+    pattern: "fullpp",
+    fromMe: true,
+    desc: "Set full screen profile picture",
+    type: "user",
+  },
+  async (message, match,m) => {
+    if (!message.reply_message.image)
+      return await message.reply("_Reply to a photo_");
+    let media = await m.quoted.download();
+    await SetFullPP(message.user, media, message);
+    return await message.reply("_Profile Picture Updated_");
+  }
+);
+
+command(
+  {
     pattern: "setname ?(.*)",
     fromMe: true,
     type: "user",
